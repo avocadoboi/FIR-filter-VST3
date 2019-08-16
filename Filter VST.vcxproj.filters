@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="code">
+      <UniqueIdentifier>{1259b88d-ed08-4476-b9ac-93b21487adbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Filter VST.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="factory.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="Processor.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\VST_SDK\VST3_SDK\public.sdk\source\main\dllmain.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="Filter.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="WeightsEditor.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Editor.hpp">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.hpp">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="Processor.hpp">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="Filter.hpp">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="global.hpp">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="WeightsEditor.hpp">
+      <Filter>code</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
